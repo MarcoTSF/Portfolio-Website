@@ -80,6 +80,7 @@ nav ul li a:hover {
 .btn:hover {
   transform: scale(1.2);
 }
+
 .content {
   position: absolute;
   top: 50%;
@@ -106,7 +107,6 @@ h4 {
 }
 
 .newslatter form {
-  /* width: 380px; */
   width: 280px;
   max-width: 100%;
   position: relative;
@@ -150,12 +150,12 @@ h4 {
 .about img {
   height: auto;
   width: 430px;
-  transition: 0.5s;
+  transition: transform 0.5s;
+  border-radius: 30px;
 }
 
 .about img:hover {
-  /* transform-origin: top right; */
-  transform: scale(1.01);
+  transform: scale(1.03);
 }
 
 .about-text {
@@ -233,8 +233,7 @@ button:hover {
 }
 
 .card {
-  /* height: 365px; */
-  height: 405px;
+  height: 420px;
   width: 335px;
   padding: 20px 35px;
   background: #191919;
@@ -259,7 +258,7 @@ h5 {
   margin-bottom: 15px;
 }
 
-.pra p {
+.box-itens p {
   color: #fcfc;
   font-size: 16px;
   line-height: 27px;
